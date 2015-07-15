@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PostTest.cs" />
+    <Compile Include="CobrancaTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PagamentoAgil.Net\PagamentoAgil.Net.csproj">

@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cobranca.cs" />
+    <Compile Include="Interfaces\ICobranca.cs" />
+    <Compile Include="Model\Fatura.cs" />
     <Compile Include="PostGenericClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
