@@ -21,7 +21,7 @@ namespace PagamentoAgil.Net
                 cliente_cpfcnpj = cliente_cpfcnpj,
                 cliente_email = cliente_email,
                 cliente_nome = cliente_nome,
-                valor = String.Format("{0:2N}", valor)
+                valor = String.Format("{0:N2}", valor)
             };
 
             PostGenericClass p = new PostGenericClass(url);

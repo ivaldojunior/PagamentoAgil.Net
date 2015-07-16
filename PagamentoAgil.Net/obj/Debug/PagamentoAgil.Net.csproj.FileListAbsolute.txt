@@ -3,3 +3,7 @@ D:\Ivaldo\Projetos\Repositorio\Componentes\PagamentoAgil.Net\PagamentoAgil.Net\P
 D:\Ivaldo\Projetos\Repositorio\Componentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\obj\Debug\PagamentoAgil.Net.dll
 D:\Ivaldo\Projetos\Repositorio\Componentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\obj\Debug\PagamentoAgil.Net.pdb
 D:\Ivaldo\Projetos\Repositorio\Componentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\obj\Debug\PagamentoAgil.Net.csprojResolveAssemblyReference.cache
+H:\nnetsistemas\Private\Projetos\Repositorio\ProjetoComponentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\bin\Debug\PagamentoAgil.Net.dll
+H:\nnetsistemas\Private\Projetos\Repositorio\ProjetoComponentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\bin\Debug\PagamentoAgil.Net.pdb
+H:\nnetsistemas\Private\Projetos\Repositorio\ProjetoComponentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\obj\Debug\PagamentoAgil.Net.dll
+H:\nnetsistemas\Private\Projetos\Repositorio\ProjetoComponentes\PagamentoAgil.Net\PagamentoAgil.Net\PagamentoAgil.Net\obj\Debug\PagamentoAgil.Net.pdb

@@ -7,12 +7,11 @@ namespace TestPagamentoAgil.Net
     [TestClass]
     public class CobrancaTest
     {
-
-        Guid token
+         Guid token
         {
             get
             {
-                return Guid.Parse("dddd");
+                return Guid.Parse("--");
             }
         }
 
@@ -20,11 +19,11 @@ namespace TestPagamentoAgil.Net
         {
             get
             {
-                return Guid.Parse("ddddd");
+                return Guid.Parse("--");
             }
         }
 
-        const string url = "http://www.pagamentoagil.com.br/webservice/GetLink";
+        const string url = "http://http://www.pagamentoagil.com.br/webservice/GetLink";
 
         [TestMethod]
         public void TestMethodGerar1()
