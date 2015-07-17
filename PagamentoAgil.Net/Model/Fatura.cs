@@ -59,27 +59,26 @@ namespace PagamentoAgil.Net.Model
         /// <summary>
         /// campo livre para detalhamento
         /// </summary>
-
         public string descricao2 {get; set;}
         /// <summary>
         /// campo livre para detalhamento
         /// </summary>
-
         public string descricao3 {get; set;}
         /// <summary>
         /// campo livre para detalhamento
         /// </summary>
-
         public string descricao4 {get; set;}
 
         /// <summary>
         /// vencimento da cobrança
         /// </summary>
-
         public string data_vencimento { get; set; }
 
 
-
+        /// <summary>
+        /// Código da cobrança, use somente para consultar o status de pagamento
+        /// </summary>
+        public string invoice { get; set; }
 
 
     }

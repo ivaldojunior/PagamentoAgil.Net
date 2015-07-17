@@ -9,26 +9,15 @@ namespace TestPagamentoAgil.Net
     [TestClass]
     public class PostTest
     {
-        string uri = "http://localhost:10108/";
         [TestMethod]
         public void Test1()
         {
-            Example c = new Example() { name = "Jack", age = 26 };
-            PostGenericClass p = new PostGenericClass(uri);
-            string resul = string.Empty;
-            p.Post<Example>(c, ref resul);
-            resul = resul.Replace(System.Environment.NewLine, string.Empty).Trim();
+            Cobranca c = new Cobranca("token_conta", "cedente_token");
+            c.Gerar("Joaquim Lima", "445454555", "email@email", 3m);
         }
-
-
     
 
     }
 
 
-    public class Example
-    {
-        public string name { get; set; }
-        public int age { get; set; }
-    }
 }

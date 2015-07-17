@@ -25,6 +25,7 @@ namespace PagamentoAgil.Net
         }
 
         const string url = "http://www.pagamentoagil.com.br/webservice/GetCodeAndLink";
+        const string url_status = "http://www.pagamentoagil.com.br/webservice/GetStatus";
 
         /// <summary>
         /// Forma mais simples de gerar uma cobrança, o retorno é um array onde possuirá a url e o código da cobrança.
@@ -66,6 +67,21 @@ namespace PagamentoAgil.Net
             return resul.Split(';');
         }
 
+        public string ConsultarStatus(long codigo_cobranca)
+        {
+            Fatura f = new Fatura()
+            {
+                cedente_token = _tokenCedente.ToString(),
+                token = _token.ToString(),
+                invoice = codigo_cobranca.ToString()
+            };
+
+            PostGenericClass p = new PostGenericClass(url_status);
+            string resul = string.Empty;
+            p.Post<Fatura>(f, ref resul);
+            return resul;
+
+        }
 
     }
 }
